@@ -40,7 +40,7 @@ public class TowerOfHanoiActivity extends SimpleBaseGameActivity {
 		    ITexture backgroundTexture = new BitmapTexture(this.getTextureManager(), new IInputStreamOpener() {
 		        @Override
 		        public InputStream open() throws IOException {
-		            return getAssets().open("gfx/background.png");
+		            return getAssets().open("gfx/background.png"); 
 		        }
 		    });
 		    ITexture towerTexture = new BitmapTexture(this.getTextureManager(), new IInputStreamOpener() {
